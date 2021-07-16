@@ -4,7 +4,6 @@
 }
 
 body {
-  color: white;
   margin: 0;
   font-family: poppins;
 }
@@ -30,12 +29,7 @@ nav {
 
 .hero {
   padding-bottom: 2em;
-  background: #44A08D;
-  /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#093637), to(#44A08D));
-  background: linear-gradient(to right, #093637, #44A08D);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: var(--primary-color);
   text-align: center;
 }
 
@@ -52,8 +46,8 @@ table {
 
 td {
   background: black;
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
 }
 
 button {
@@ -87,7 +81,7 @@ input {
   margin: auto auto 2em;
   width: 6em;
   height: 2em;
-  background: var(--primary-color);
+  background: red;
   border: none;
 }
 
