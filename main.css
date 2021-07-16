@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+:root {
+  --primary-color: rgb(68, 187, 255);
+}
+
+body {
+  margin: 0;
+  font-family: poppins;
+  background-color: #f2f2f2;
+}
+
+body a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-weight: bold;
+  padding-left: .3em;
+  font-size: 1.4em;
+  font-weight: 1.2em;
+  border-bottom: #d3d3d3 1px solid;
+  background-color: white;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  margin-top: 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 3em auto;
+}
+
+td {
+  background: black;
+  width: 2em;
+  height: 2em;
+}
+
+button {
+  background: black;
+  color: white;
+  -webkit-transition-duration: .2s;
+          transition-duration: .2s;
+  width: 4em;
+  height: 4em;
+  display: none;
+}
+
+button:hover {
+  color: black;
+  background: white;
+  border: none;
+}
+
+.disabled {
+  display: inline;
+  visibility: hidden;
+}
+
+input {
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+
+#newGame {
+  display: block;
+  margin: auto auto 2em;
+  width: 6em;
+  height: 2em;
+  background: var(--primary-color);
+  border: none;
+}
+
+#newGame:hover {
+  background: black;
+  color: white;
+}
+
+.footer-container {
+  text-align: right;
+  border-top: 1px solid black;
+  background-color: white;
+}
+
+.footer-container p {
+  display: inline;
+  font-weight: bold;
+}
+
+.footer-container footer {
+  padding: .2em 1em;
+}
+
+.footer-container img {
+  width: 1.6em;
+  position: relative;
+  top: .2em;
+}
+
+.footer-container #facebook {
+  margin-right: .3em;
+  margin-left: 1em;
+}
+/*# sourceMappingURL=main.css.map */
