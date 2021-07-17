@@ -4,8 +4,9 @@
 }
 
 body {
+  color: white;
   margin: 0;
-  font-family: poppins;
+  font-family: poppins, arial;
 }
 
 body a {
